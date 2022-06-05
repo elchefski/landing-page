@@ -94,8 +94,9 @@ a {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    min-height: 300px;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .project-boxes-wrapper {
