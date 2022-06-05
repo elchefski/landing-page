@@ -12,7 +12,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 20px 40px;
+   
 }
 
 ul {
@@ -28,21 +28,22 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 50px;
+    height: 100px;
     padding-bottom: 10px;
     color: #FFFFFF;
+    padding:0 40px;
     
 }
 
 .logo  {
     font-size: 24px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     flex-shrink: 0;
     
 }
 
 .nav-links a {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nav-links a:hover {
@@ -74,12 +75,23 @@ a {
     text-align: justify;
 }
 
+.main-text a{
+    text-decoration: underline;
+}
+
+.main-text a:hover{
+    color: orange;
+}
+
 .main-img {
-    width: 400px;
-    
+    width: 400px;    
 }
 .main-img img{
     border-radius: 5%;   
+}
+
+.projects {
+    background-color: #FFFFFF;
 }
 
 .footer {
