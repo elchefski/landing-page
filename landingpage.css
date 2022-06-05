@@ -1,11 +1,18 @@
+/*https://colordesigner.io/#616B75-01A797-F38828-F27127-DA4535*/
+
 body {
     margin: 0;
     padding: 0; 
     box-sizing: border-box;   
+    text-align: center;
+    background-color: #22252b; 
+    font-family: Sans-Serif;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-     
-    align-items: center;    
+    padding: 20px 40px;
 }
 
 ul {
@@ -17,116 +24,68 @@ a {
     color: inherit;
 }
 
-.wrapper {
-    width: 100%;
-}
-
-
-/*padding items in wrapper container */
-.wrapper > * {
-    padding: 10px 60px;
-    
-}
-
-.header, .footer , .about, .info, .about-left, .about-right, .box, .quote-container, .action-container {
-    border: 1px solid black;
-    
-}
-
-.header {
+.navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    height: 50px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
     
 }
 
-.header ul {
-    display: flex;       
-}
-
-.header ul li:not(:last-child){
-    padding-right: 15px; 
-}
-
-.about {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
-
-.about-left {
-    height: 250px;
-    width: 400px;
-}
-
-.about-right {
-    height: 250px;
-    width: 400px;
-}
-
-.info {
-    display: flex;    
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-
-.info-text {
-    padding-bottom: 20px;
-}
-
-.info-boxes {
-    display: flex;    
-    align-items:baseline;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
-.info-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-}
-
-.quote-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;  
-    height: 300px;
-     
-}
-
-.quote-box {
-    width: 80%;
+.logo  {
+    font-size: 24px;
+    padding: 0px 0px 0px 0px;
     flex-shrink: 0;
+    
 }
 
-.action-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.nav-links a {
+    font-size: 16px;
 }
 
-.action-box {
+.nav-links a:hover {
+    color: orange;
+}
+
+.nav-links ul {
+    display: flex;    
+    
+}
+
+.nav-links li{
+    padding: 0px 16px 0px 0px;
+}
+
+.main {
+    color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;    
+    gap: 60px;
+    padding: 30px;
+    flex-wrap: wrap;
+   
+}
+
+.main-text {
+    width: 400px;
+    flex-shrink: 0;
+    text-align: justify;
+}
+
+.main-img {
+    width: 400px;
+    
+}
+.main-img img{
+    border-radius: 5%;   
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    color: #FFFFFF;
     
 }
 
