@@ -206,6 +206,11 @@ max-width: 800px;
     font-size: large;
 }
 
+.action-button:hover {
+    background-color: #FFFFFF;
+    color: #3882f6;
+}
+
 .footer {
     display: flex;
     justify-content: center;
