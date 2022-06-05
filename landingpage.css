@@ -92,12 +92,40 @@ a {
 
 .projects {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.project-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.project-box {   
+    height: 100px;
+    width: 100px;
+    background-color: #4a515d;
+    border: 2px solid #FFFFFF;
+    border-radius: 5%;
+}
+
+.project-box:hover{
+    background-color: orange;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    align-content: center;
     color: #FFFFFF;
-    
+    padding-top: 25px;    
 }
 
