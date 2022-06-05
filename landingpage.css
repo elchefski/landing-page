@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;   
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+/*padding items in wrapper container */
+.wrapper > * {
+    padding: 10px 60px;
+    
+}
+
+.header, .footer , .about, .info, .about-left, .about-right, .box, .quote-container, .action-container {
+    border: 1px solid black;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header ul {
+    display: flex;       
+}
+
+.header ul li:not(:last-child){
+    padding-right: 15px; 
+}
+
+.about {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.about-left {
+    height: 250px;
+    width: 400px;
+}
+
+.about-right {
+    height: 250px;
+    width: 400px;
+}
+
+.info {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.info-text {
+    padding-bottom: 20px;
+}
+
+.info-boxes {
+    display: flex;    
+    align-items:baseline;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    height: 300px;
+     
+}
+
+.quote-box {
+    width: 80%;
+    flex-shrink: 0;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
